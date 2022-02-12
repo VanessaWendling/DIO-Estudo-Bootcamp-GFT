@@ -1,0 +1,26 @@
+Modificadores de acesso
+public - qualquer classe de qualquer pacote poderá acessar o atributo ou método
+protected - qualquer classe definida no mesmo pacote ou subclasse
+sem modificador - apenas classes definidas no mesmo pacote
+private - apenas a própria classe
+
+Métodos
+métodos construtores - definem como uma classe será instanciada
+método comum - definem comportamentos que podem ou não estar aatribuídas às regras de negócio.
+
+
+Javadoc
+ferramenta para documentação no formato HTML que se baseia nos comentários do código-fonte
+os comentários precisam conter tags para que a documentação fique legível
+
+Tipos de tags
+@author - especifica o author da classe ou do método
+@deprecated - identifica classes ou métodos obsoletos
+@link - possibilita a definição de um link para um outro documento local ou remoto através de um URL
+@param - descreve um parêmetro que será passado a um método
+@return descreve qual o tipo de retorno de um método
+@see - associa a outras classes ou métodos
+@since - descreve desde quando uma classe ou métodos foi adicionado
+@throws - descreve os tipos de exceções que podem ser lançadas por um método
+@version - descreve a versão da classe ou método
+ 
