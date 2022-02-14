@@ -1,0 +1,17 @@
+Java SE (Java Platform, Standard Edition)
+- base da platarma e traz algumas classes comuns entre as plataformas
+Java EE(Java Platform, Enterprise Edition)
+- desenvolvimento web
+Java ME(Java Platform, Micro Edition)
+- desenvolvimento de dispositivos móveis e embarcados.
+
+
+Linguagem compilada X interpretada
+-Compilada: compilação do código se dá ainda em tempo de desenvolvimento
+-Interpretada: Interpretado por uma máquina virtual 
+
+
+Atalhos eclipse
+ctrl + d : apaga a linha inteira
+ctrl + shift + f : identação
+ctrl + alt + seta : copia o código selecionado para a orientação da seta
