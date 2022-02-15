@@ -1,0 +1,35 @@
+Conceituação de métodos
+- Subrotina que é disponibilizada por uma classe. Este é executado
+quando é feita uma requisição a ele. São responsáveis por definir e
+realizar um determinado comportamento. 
+
+- Passagem de parâmetros:
+-- por valor (cópia) 
+-- por referência (endereço)
+
+Sobrecarga de métodos
+- Capacidade de definir métodos para diferentes contextos, mas
+preservando seu nome.
+- Para isso mantém o mesmo nome e altera o número de parâmetros
+
+ex:
+	converterParaInt(float f);
+	converterparaInt(double d);
+	converterParaInt(String s);
+	converterParaInt(float f, RoundType rd);
+	converterParaInt(RoundType rd);		--> muda a ordem, muda o método
+	converterParaInt();
+
+
+- Sobrecarga X Sobrescrita
+-- Sobrescrita: poder de sobrescrever um método
+
+- Uso do return
+-- instrução de interrupção
+-- o método executa seu retorno quando:
+	- completa todas as instruções internas
+	- chega a uma declaração explicita de retorno
+	- lança uma exceção
+-- o tipo de retorno tem que ser compatível com o do método
+-- se o método for do tipo void não terá retorno
+
