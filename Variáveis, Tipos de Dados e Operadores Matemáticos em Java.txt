@@ -1,0 +1,44 @@
+Tipos de dados
+
+- São os valores e consequentemente operações que as variáveis podem
+assumir e sofrer, respectivamente.
+
+
+Tipificação:
+- Estática(forte) X dinâmica(fraco)
+
+--estática: obriga determinar o tipo da variável no momento da criação.
+--dinâmica: vc não precisa dizer o tipo, durante a execução da aplicação, 
+a linguagem vai inferir o tipo 
+
+- Primitivo X Composto
+
+-- primitivo: dados básicos que uma linguagem pode oferecer.
+-- composto: ligados a orientação a objetos (por exemplo).
+
+
+Operadores aritméticos
+- importante
+	int i = ++k;  =>  i = k+1;
+	int j = k--;  =>  j = k;	k = k-1;
+
+
+Casting
+- transformação de uma determinada variável de tipo menos específico para
+um tipo mais específico ou vice-versa
+- Tipos 
+-- Upcast(implícito) - promoção de um tipo de dado de menor capacidade de
+	armazenamento e representação para um tipo maior. (Não precisa se 
+	preocupar em dizer o tipo pq sobra espaço na capacidade de armazenamento
+	e representação e não gera nenhum problema.)
+-- Downcast(explícito) - rebaixamento de um tipo de dado de maior capacidade
+	de armazenamento e representação para um tipo menor. (Tem que dizer
+	exatamente para que tipo está rebaixando para a linguagem conseguir
+	entender e se preocupar com possíveis perdas de dados.)
+
+-ex:
+	long l;		int i = 10;		l = i;			Upcast
+	int i;		long l = 100;		i = (int)l;		Downcast
+	double d;	float f = 10.5f;	d = f;			Upcast
+	float f;	double d = 10.5d;	f = (float)d;		Downcast
+	int i;		float f = 10.5f;	i = (int)f;		Downcast com perda de informação
