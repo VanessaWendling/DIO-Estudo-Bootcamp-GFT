@@ -15,3 +15,4 @@ Atalhos eclipse
 ctrl + d : apaga a linha inteira
 ctrl + shift + f : identação
 ctrl + alt + seta : copia o código selecionado para a orientação da seta
+ctrl + shift + c : comenta bloco de instruções
