@@ -1,4 +1,4 @@
-package com.dio;
+package com.dio.exercicio1;
 
 public class Calculadora {
 	public static void soma(double numero1, double numero2) {

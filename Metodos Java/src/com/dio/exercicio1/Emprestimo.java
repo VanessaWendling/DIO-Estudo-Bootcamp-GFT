@@ -1,4 +1,4 @@
-package com.dio;
+package com.dio.exercicio1;
 
 public class Emprestimo {
 	public static int getDuasParcelas() {
