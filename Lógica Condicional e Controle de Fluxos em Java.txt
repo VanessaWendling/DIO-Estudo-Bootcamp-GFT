@@ -1,0 +1,27 @@
+Operadores Relacionais
+- São símbolos especiais quais são capazes de realizar comparações
+entre determinados operandos e, em seguida, retornar um resultado.
+
+Operadores Lógicos
+- São símbolos especiais quais são capazes de realizar comparações
+lógicas entre operandos lógicos ou expressões e, em seguida, retornar
+um resultado.
+- Tabela verdade
+- Conjunção: && 	Dijunção exclusiva: xor(^) --> só é verdade se eles forem opostos
+- Dijunção: ||		Negação: !
+
+
+Estruturas de controle
+- São estruturas que tem a capacidade de direcionar o fluxo de
+execução do código
+- Decisão: if, if-else, if-else-if, switch e operador ternário
+- Repetição: for, while, do-while
+- Interrupção: break, continue e return
+
+
+Blocos
+- é um grupo de 0 ou mais códigos quais trabalham em conjunto para
+executar uma operação
+- Locais: dentro de métodos
+- Estáticos: dentro de classes
+- Instância: dentro de classes
