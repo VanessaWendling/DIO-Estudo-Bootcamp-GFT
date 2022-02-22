@@ -16,3 +16,9 @@ ctrl + d : apaga a linha inteira
 ctrl + shift + f : identação
 ctrl + alt + seta : copia o código selecionado para a orientação da seta
 ctrl + shift + c : comenta bloco de instruções
+
+
+Atalhos IntelliJ IDEA
+
+ctrl + p: ver o que precisa de argumento
+ctrl + q: acessar a documentação

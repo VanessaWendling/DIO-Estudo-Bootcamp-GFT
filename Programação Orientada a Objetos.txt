@@ -1,0 +1,79 @@
+Programação Estruturada X Prograçaão Orientada a Objeto
+- Paradigma Estruturado foca em operações (funções) e dados
+- Paradigma Orietnado a Objeto foca na modelagem de entidades
+e nas interações entre estas
+
+- Orientação a Objetos 
+- É um paradigma de análise, projeto e programação de sistemas de
+software baseado na composição e interação entre diversas unidades
+de software chamadas de objetos.
+
+- Fundamentos
+-- Abstração: processo pelo qual se isolam características de um
+	objeto, considerando os que tenham em comum certos grupos
+	de objeto.
+-- Reuso: capacidade de criar novas unidades de código a partir de
+	outras já existentes.
+-- Encapsulamento: capacidade de esconder complexidades e proteger
+	dados.
+ 
+------------------------------------------------------------------
+Conceitos de Orientação a Objetos
+-- Classe: unidade mínima e básica da orientação a objetos. É uma
+	estrutura que abstrai um conjunto de objetos com 
+	características similares.
+-- Atributo: elemento de uma classe responsável por definir sua 
+	estrutura de dados.
+	OBS.: Atributo X Variável
+	A: o que é próprio e peculiar a alguém ou alguma coisa.
+	V: sujeito a variações ou mudanças.
+-- Método: Sub-rotina que é disponibilizada pela classe. Executada
+	quando é feita uma requisição a ele. Serve para identificar
+	serviços e ações que a classe oferece.
+	OBS.: Contrutor X Destrutor
+	C: construir o objeto e prover valores iniciais caso necessário
+	D: auxilia a destruir objeto. Liberar recursos
+	OBS.: Sobrecarga
+	- mudar a assinatura de acordo com a necessidade/parâmetros
+-- Objeto: objeto é a representação de um conceito/entidade do mundo
+	real que pode ser física(bola, carro...) ou conceitual
+	(viagem, compra...) e possui um significado bem definido.
+-- Mensagem: processo de ativação de um método de um objeto. Ocorre
+	quando uma requisição a esse método é realizada.
+
+
+------------------------------------------------------------------
+As relações: Herança, Associação e Interface
+- Herança: relacionamento entre classes em que uma classe chamada
+	de subclasse(filha) é uma extensão de uma superclasse(pai).
+	A subclasse consegue reaproveitar os atribuitos e métodos
+	herdados e pode definir seus próprios membros.
+- Polimorfismo: a mesma ação se comportando diferente
+- Sobrescrita: a mesma ação podendo s
+e comportar diferente
+
+- Associação: relacionamento entre classes/objetos, no qual estes
+	possam pedir ajuda a outras classes/objetos e representar
+	de forma completa o conceito ao qual se destinam.
+	- OBS.:Tipos
+	Estrutural: Composição "com parte todo" ex.: pessoa e endereço
+	Agregação: Sem parte todo ex.: disciplina e aluno
+	Comportamental: 
+	  Dependência: depende de
+
+- Interface: contrato que deve ser seguido pela classe que a implementa.
+
+
+------------------------------------------------------------------
+- Pacotes:organizações físicas ou lógicas criadas para separar 
+	classes com responsabilidades distintas. Organização
+
+- Visibilidade: um modificador de acesso tem como finalidade
+	determinar até que ponto uma classe, atributo ou método
+	pode ser usado. 
+-- private: só é visível dentro da classe que foi criado
+-- protected: só é visível dentro da classe, no mesmo pacote e nas
+	subclasses.
+-- public: pode ser visível em qualquer lugar da aplicação
+
+
