@@ -1,0 +1,19 @@
+Visão Geral
+- Collection é um objeto que agrupa múltiplos elementos (variáveis
+primitivas ou objetos) dentro de uma única unidade.
+- Serve para armazer e processar conjunjuntos de dados.
+
+- Composição Collections
+-- Interfaces: um contrato que quando assumido por uma classe deve
+	ser implementado.
+-- Implementações ou Classes: são as materializações, a codificação
+	das interfaces.
+-- Algoritmos: sequência lógica, finita e definida de instruções que
+	devem ser seguidas para resolver um problema.
+-----------------------------------------------------------------------------
+Lists
+- java.util.List
+- permite elementos duplicados e garante ordem de inserção
+- ArrayList X LinkedList
+-- ArrayList deve ser usado onde mais operações de pesquisa são necessárias,
+e LinkedList deve ser usado onde tem mais operaçãoeos de inserção e exclusão.
