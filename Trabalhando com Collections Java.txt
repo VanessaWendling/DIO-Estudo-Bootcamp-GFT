@@ -17,3 +17,14 @@ Lists
 - ArrayList X LinkedList
 -- ArrayList deve ser usado onde mais operações de pesquisa são necessárias,
 e LinkedList deve ser usado onde tem mais operaçãoeos de inserção e exclusão.
+-----------------------------------------------------------------------------
+Set
+- java.util.Set
+- não permite elementos duplicados
+- não possui índice
+- HashSet X LinkedHashSet X TreeSet
+-- HashSet não mantém a ordem de inserção dos objetos, já a LinkedHashSet mantém
+ e a TreeSet mantém a ordem natural, ou seja ordenado.
+
+OBS.: importante sobreescrever os métodos equals e hashCode na utilização dos Hash
+-----------------------------------------------------------------------------
