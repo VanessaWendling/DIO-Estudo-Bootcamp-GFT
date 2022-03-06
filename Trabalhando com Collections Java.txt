@@ -28,3 +28,12 @@ Set
 
 OBS.: importante sobreescrever os métodos equals e hashCode na utilização dos Hash
 -----------------------------------------------------------------------------
+Map
+- java.util.Map
+- elementos únicos (key) para cada valor(value)
+- não estende de Collection
+- TreeMap: organização, ordenação
+- HashMap e o LinkedHashMap permitem chaves nulas e o TreeMap não
+
+OBS.: importante sobreescrever os métodos equals e hashCode na utilização dos Hash
+-----------------------------------------------------------------------------
