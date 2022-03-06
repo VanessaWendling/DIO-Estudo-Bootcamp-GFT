@@ -37,3 +37,21 @@ Map
 
 OBS.: importante sobreescrever os métodos equals e hashCode na utilização dos Hash
 -----------------------------------------------------------------------------
+Stream
+- Classe Anônima: classe que não recebeu nome e é tanto declarado e instanciado em
+	uma única instrução. É instanciado apenas uma vez.
+- Interface Funcional: qualquer interface com um SAM (Single Abstract Method ) é uma
+	interface funcional e sua implementação pode ser tratada como expressão lambda.
+	-- Comparator, Consumer, Function, Predicate
+- Lambda: função sem declaração, isto é, não é necessário colocar um nome, tipo de retorno
+	e o modificador de acesso. (argumento) -> (corpo).
+- Reference Method: permite fazer referência a um método ou construtor de uma classe de forma
+	funcional) e assim indicar que ele deve ser utilizado num porto específico do código,
+	deixando-o mais simples e legível. Para utilizá=lo, basta informar uma classe ou referência
+	seguida do símbolo "::" e o nome do método sem parênteses no final.
+	Simplificar uma expressão Lambda
+- Streams API: traz uma nova opção para a manipulação de coleções em Java seguindo os princípios
+	da programação funcional. Combinada com as expressões lambda, ela proporciona uma forma
+	diferente de lidar com conjuntos de elementos, oferecendo ao dev uma maneira simples e 
+	concisa de escrever código que resulta em facilidade de manutenção e paralelização sem 
+	efeitos indesejados em tempo de execução.
