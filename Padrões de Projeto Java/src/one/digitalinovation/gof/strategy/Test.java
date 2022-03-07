@@ -3,6 +3,7 @@ package one.digitalinovation.gof.strategy;
 //Strategy - simplificar a variação de algoritmos para 
 //a resolução de um mesmo problema
 
+//COM SPRING: @Service e @Repository
 
 public class Test {
 	public static void main(String[] args) {

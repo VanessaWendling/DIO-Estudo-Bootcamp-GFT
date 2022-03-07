@@ -1,9 +1,11 @@
 package one.digitalinovation.gof.singleton;
+//Singleton - permite a criação de uma única instância
+//de uma classe e fornece um modo para recuperá-la
+
+//COM SPRING: @Bean e @Autowired
 
 public class Test {
 
-	//Singleton - permite a criação de uma única instância
-	//de uma classe e fornece um modo para recuperá-la
 	
 	public static void main(String[] args) {
 		
