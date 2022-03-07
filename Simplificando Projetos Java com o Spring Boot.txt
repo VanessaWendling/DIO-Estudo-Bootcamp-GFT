@@ -1,0 +1,21 @@
+Spring Framework
+
+- Beans
+-- objeto que é instanciado, montado e gerenciado por um container do Spring
+	através de Inversão de Controle(IoC) e Injeção de Dependências (DI).
+- BeanFactory X ApplicationContext
+-- BeanFactory: fornece um mecanismo de configuração avançada capaz de gerenciar 
+objetos de qualquer natureza.
+-- ApplicationContext: se baseia na BeanFactory (é uma subinterface) e adiciona outras
+funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação
+de recursos de mensagem (para uso da internacionalização), propagação de eventos e
+contextos específicos da camada de aplicativo como WebApplicationContext para uso 
+em aplicativos web.
+
+- Inversão de Controle
+-- processo onde se inverte o fluxo de comando de um programa. É uma ideia desaclopar
+ou remover dependências do objeto e fornecer controle para outra camada.
+
+- Injeção de Dependência
+-- define quais classes serão instanciadas e onde serão injetadas quando for necessário.
+Existem 3 formas de aplicar o DI, por injeção de contrutor, setter e interface.
