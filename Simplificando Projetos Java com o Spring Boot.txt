@@ -19,3 +19,37 @@ ou remover dependências do objeto e fornecer controle para outra camada.
 - Injeção de Dependência
 -- define quais classes serão instanciadas e onde serão injetadas quando for necessário.
 Existem 3 formas de aplicar o DI, por injeção de contrutor, setter e interface.
+
+----------------------------------------------------------------------------------------
+
+- Spring Boot
+- é como um template pré-configurado para desenvolvimento e execução de aplicações 
+baseadas no Spring.
+
+----------------------------------------------------------------------------------------
+
+- Swagger
+-- possui diversar ferramentas utilizadas para desenvolver APIs com a especificação OpenAPI
+Specification(OAS), uma especificação para descrever, reproduzir, consumir e visualizar 
+serviços de uma API REST. Com o OAS você poderá descrever recursos, URIs, modelo de dados,
+métodos HTTP aceitos e código de resposta.
+
+----------------------------------------------------------------------------------------
+
+- Feign
+-- cliente de serviços web declarativo (cliente HTTP) e um des mais populares do Spring
+Clound Component. Com ele é possível criar clientes API HTTP no java de forma mais simples
+para chamar/consumir os serviços REST, utilizando anotações
+
+----------------------------------------------------------------------------------------
+- Spring Boot Test
+-- bastante utilizado para testar comportamentos do código e regras de negócio.
+
+-Tests Unitários
+-- é a base da pirâmide de testes onde são realizados o maior número de testes ou deveria
+para garantir a fidelidade do código e regras do negócio
+
+- @SpringBootTest
+-- é utilizada em uma classe de teste e diz ao Spring Boot para procurar uma classe de 
+configuração principal, por exemplo, o @SpringBootApplication, e usá-lo para iniciar
+um contexto de aplicativo Spring
